@@ -1,0 +1,29 @@
+/* Shared section spacing and headings */
+section {
+  padding:92px 0;
+}
+
+.section-head {
+  max-width:720px;
+  margin-bottom:42px;
+}
+
+.kicker {
+  color:var(--red);
+  font-size:12px;
+  font-weight:800;
+  letter-spacing:1.5px;
+  text-transform:uppercase;
+}
+
+h2 {
+  font-size:clamp(32px,4vw,48px);
+  line-height:1.12;
+  letter-spacing:-1px;
+  margin:8px 0 14px;
+  color:var(--navy);
+}
+
+.section-head p {
+  color:var(--muted);
+}

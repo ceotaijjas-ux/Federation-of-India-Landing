@@ -1,0 +1,46 @@
+/* Focus area cards */
+.focus {
+  background:var(--soft);
+}
+
+.cards {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+}
+
+.card {
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:13px;
+  padding:27px;
+  transition:.25s;
+}
+
+.card:hover {
+  transform:translateY(-5px);
+  box-shadow:0 15px 40px #102d6814;
+}
+
+.icon {
+  width:45px;
+  height:45px;
+  border-radius:10px;
+  background:#edf3ff;
+  color:var(--blue);
+  display:grid;
+  place-items:center;
+  font-size:22px;
+  margin-bottom:20px;
+}
+
+.card h3 {
+  font-size:18px;
+  margin-bottom:7px;
+  color:var(--navy);
+}
+
+.card p {
+  font-size:13px;
+  color:var(--muted);
+}

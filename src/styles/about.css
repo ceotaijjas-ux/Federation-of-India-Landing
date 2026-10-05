@@ -1,0 +1,52 @@
+/* About section */
+.about-grid {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:65px;
+  align-items:center;
+}
+
+.about-img {
+  height:460px;
+  border-radius:18px;
+  overflow:hidden;
+  background:url('/about_us.png') center/cover;
+  position:relative;
+}
+
+.about-img:after {
+  content:'SC & ST Federation of India';
+  position:absolute;
+  left:20px;
+  bottom:20px;
+  background:#fff;
+  padding:13px 17px;
+  border-radius:8px;
+  font-weight:800;
+  color:var(--navy);
+  font-size:13px;
+  box-shadow:0 8px 30px #0002;
+}
+
+.about-copy p {
+  color:var(--muted);
+  margin:0 0 18px;
+}
+
+.check {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:13px;
+  margin-top:25px;
+}
+
+.check div {
+  font-size:13px;
+  font-weight:700;
+  color:#334155;
+}
+
+.check b {
+  color:var(--red);
+  margin-right:7px;
+}

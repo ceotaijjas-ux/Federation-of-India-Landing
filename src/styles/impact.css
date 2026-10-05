@@ -1,0 +1,30 @@
+/* Impact statistics */
+.impact {
+  padding:65px 0;
+  background:#fff;
+}
+
+.impact-grid {
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:1px;
+  background:var(--line);
+  border:1px solid var(--line);
+}
+
+.impact-item {
+  padding:34px 20px;
+  text-align:center;
+  background:#fff;
+}
+
+.impact-item strong {
+  font-size:38px;
+  color:var(--navy);
+  display:block;
+}
+
+.impact-item span {
+  font-size:12px;
+  color:var(--muted);
+}

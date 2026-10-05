@@ -1,0 +1,11 @@
+/* Design tokens (colours) */
+:root {
+  --navy:#102d68;
+  --blue:#174b9b;
+  --red:#d72d2d;
+  --ink:#152238;
+  --muted:#64748b;
+  --soft:#f3f7fc;
+  --line:#e5eaf2;
+  --white:#fff;
+}

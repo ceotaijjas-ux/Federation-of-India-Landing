@@ -1,0 +1,89 @@
+/* Sticky header, brand, navigation and language switcher */
+header {
+  position:sticky;
+  top:0;
+  z-index:20;
+  background:rgba(255,255,255,.97);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--line);
+}
+
+.nav {
+  min-height:82px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+}
+
+.brand {
+  display:flex;
+  align-items:center;
+  gap:12px;
+  min-width:250px;
+}
+
+.brand img {
+  width:56px;
+  height:56px;
+  object-fit:contain;
+}
+
+.brand-title {
+  font-weight:800;
+  color:var(--red);
+  font-size:18px;
+  line-height:1.05;
+}
+
+.brand-title small {
+  display:block;
+  color:var(--navy);
+  font-size:9px;
+  font-weight:700;
+  margin-top:4px;
+}
+
+nav {
+  display:flex;
+  gap:20px;
+  align-items:center;
+  font-size:13px;
+  font-weight:600;
+  color:#334155;
+}
+
+nav a:hover {
+  color:var(--red);
+}
+
+.nav-cta {
+  background:var(--red);
+  color:#fff!important;
+  padding:10px 15px;
+  border-radius:7px;
+}
+
+.lang-switch {
+  display:flex;
+  gap:5px;
+  padding:4px;
+  border:1px solid var(--line);
+  border-radius:8px;
+  background:#f8fafc;
+}
+
+.lang-btn {
+  border:0;
+  background:transparent;
+  color:#475569;
+  font:700 12px Inter,sans-serif;
+  padding:7px 9px;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.lang-btn.active {
+  background:var(--navy);
+  color:#fff;
+}

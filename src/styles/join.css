@@ -1,0 +1,28 @@
+/* Join call-to-action band */
+.join {
+  padding:75px 0;
+  background:linear-gradient(110deg,var(--red),#a71925);
+  color:#fff;
+}
+
+.join-row {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:30px;
+}
+
+.join h2 {
+  color:#fff;
+  margin:0 0 8px;
+}
+
+.join p {
+  color:#ffe4e4;
+  max-width:650px;
+}
+
+.join .btn {
+  background:#fff;
+  color:var(--red);
+}

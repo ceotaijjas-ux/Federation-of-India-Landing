@@ -1,0 +1,14 @@
+/* Top announcement bar */
+.topbar {
+  background:var(--navy);
+  color:#fff;
+  font-size:12px;
+  padding:8px 0;
+}
+
+.topbar .container {
+  display:flex;
+  justify-content:space-between;
+  gap:20px;
+  align-items:center;
+}
